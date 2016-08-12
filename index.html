@@ -1,0 +1,355 @@
+	<!DOCTYPE html>
+
+<html>
+	<head>
+
+		<!-- Website Title & Description for Search Engine purposes -->
+		<title></title>
+		<meta name="description" content="">
+
+		<!-- Mobile viewport optimized -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<!-- Bootstrap CSS -->
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
+		<link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" rel=stylesheet>
+
+		<!-- Custom CSS -->
+		<link href="includes/css/styles.css" rel="stylesheet">
+
+		<!-- Include Modernizr in the head, before any other Javascript -->
+		<script src="includes/js/modernizr-2.6.2.min.js"></script>
+
+	</head>
+	<body>
+		<div class="container" id="main">
+
+
+			<div class="navbar navbar-fixed-top">
+				<div class="container">
+
+					<button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+
+					<a class="navbar-brand" href="/"><img src="images/Travel_360_Logo.jpg" alt="Travel 360"></a>
+
+					<div class="nav-collapse collapse navbar-responsive-collapse">
+						<ul class="nav navbar-nav">
+							<li class="active">
+								<a href="#">Home</a>
+							</li>
+
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Services<strong class="caret"></strong></a>
+								<ul class="dropdown-menu">
+									<li>
+										<a href="#">Book a Flight</a>
+									</li>
+
+									<li>
+										<a href="#">Book your rooms</a>
+									</li>
+
+									<li class="divider"></li>
+
+									<li class="dropdown-header">More Services</li>
+
+									<li>
+										<a href="#">Hire Travel Guide</a>
+									</li>
+
+									<li>
+										<a href="#">Make Travel Insurance</a>
+									</li>
+
+								</ul><!-- end dropdown-menu -->
+							</li>
+
+						</ul>
+
+						<form class="navbar-form pull-left">
+
+							<input type="text" class="form-control" placeholder="search this site.." id="searchInput">
+
+							<button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+
+						</form><!--end navbar-form -->
+
+						<ul class="nav navbar-nav pull-right">
+
+							<li class="dropdown">
+
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span>My Account<strong class="caret"></strong></a>
+
+								<ul class="dropdown-menu">
+									<li>
+										<a href="#"><span class="glyphicon glyphicon-wrench"></span> Settings</a>
+										</li>
+
+									<li>
+										<a href="#"><span class="glyphicon glyphicon-refresh"></span> Update Profile</a>
+									</li>
+
+									<li>
+										<a href="#"><span class="glyphicon glyphicon-briefcase"></span> Billing</a>
+									</li>
+
+									<li class="divider"></li>
+
+									<li>
+										<a href="#"><span class="glyphicon glyphicon-off"></span> Sign Out</a>
+									</li>
+
+								</ul><!-- end dropdown-menu-->
+
+							</li>
+
+						</ul><!-- end nav pull-right -->
+
+					</div><!-- end nav-collapse -->
+
+				</div><!-- end container -->
+
+			</div><!-- end navbar -->
+
+
+			<div class="carousel slide" id="myCarousel">
+
+				<!-- indicators -->
+				<ol class="carousel-indicators">
+					<li class="active" data-slide-to="0" data-target="#myCarousel"></li>
+					<li data-slide-to="1" data-target="#myCarousel"></li>
+					<li data-slide-to="2" data-target="#myCarousel"></li>
+				</ol>
+
+				<!-- Wraper for slides -->
+				<div class="carousel-inner">
+					<div class="item active" id="slide1">
+						<div class="carousel-caption">
+							<h4>Travel 360<sup>o</sup></h4>
+							<p>Your Best Guide to travel around the world.</p>
+
+						</div><!-- end carousel-caption -->
+					</div><!-- end item -->
+
+					<div class="item" id="slide2">
+						<div class="carousel-caption">
+							<h4>Travel 360<sup>o</sup></h4>
+							<p>World's most popular and most beautiful destinations.</p>
+
+						</div><!-- end carousel-caption -->
+					</div><!-- end item -->
+
+					<div class="item" id="slide3">
+						<div class="carousel-caption">
+							<h4>Travel 360<sup>o</sup></h4>
+							<p>offordable Hotel rooms,food,shopping and entirement all in one with Best fares.</p>
+						</div><!-- end carousel-caption -->
+					</div><!-- end item -->
+
+				</div><!-- end carousel inner -- >
+
+				<!-- controls -->
+				<a class="left carousel-control" data-slide="prev" href="#myCarousel"><span class="icon-prev"></span></a>
+
+				<a class="right carousel-control" data-slide="next" href="#myCarousel"><span class="icon-next"></span></a>
+
+			</div><!-- end myCarousel-->
+
+
+			<div class="row" id="bigCallout">
+				<div class="col-12">
+
+					<div class="alert alert-success alert-block fade in" id="successAlert">
+						<button type="button" class="close" data-dismiss="alert">&times;</button>
+
+						<h4>Sucess!</h4>
+						<p>Thanks for joining our page. Click the 'x' in the top right corner to close this notification.</p>
+					</div>
+
+					<div class="well well-small visible-sm">
+						<a href="" class="btn btn-large btn-block btn-default"><span class="glyphicon glyphicon-phone">Give Us a Call</span></a>
+
+					</div><!-- end well-small -->
+
+					<div class="well">
+						<div class="page-header">
+							<h1><b>Your Travel Guide</b><small> Everything you need to know before you make your run</small></h1>
+						</div><!-- end page header -->
+
+						<p class="lead"><strong>Make sure you know you have the right knowledge about the amaging places you visit. We are here to help you guide and ensure you will have a splendid moments throughout your journey.</strong></p>
+
+						<a href="" class="btn btn-large btn-primary" id="alertMe">Begin your tour</a>
+						<a href="" class="btn btn-large btn-link">or explore more</a>
+
+					</div><!-- end well -->
+				</div><!-- end col-12 -->
+			</div><!-- end bigCallout -->
+
+
+			<div class="row" id="featuresHeading">
+				<div class="col-12">
+					<h2><b style="color:white">Other Services</b></h2>
+					<p class="lead"><strong>Here are our other services to make your journey more comfortable.</strong></p>
+
+				</div><!-- end col-12 -->
+
+			</div><!-- end featureHeading -->
+
+
+			<div class="row" id="features">
+				<div class="col-sm-4 feature">
+					<div class="panel">
+						<div class="panel-heading">
+							<h3 class="panel-title"><strong>Amazing Destinations</strong></h3>
+						</div><!-- end panel-heading-->
+						<img src="images/Image_Dest_01.jpg" alt="Destinations"  style="width:200px;height=80px;">
+						<p>List of best places where you can enjoy the beauty and scenary of nature all around the world.</p>
+
+						<a href="http://www.boredpanda.com/amazing-places/" target="_blank" class="btn btn-warning btn-block">Click Here to know more</a>
+					</div><!-- end panel -->
+				</div><!-- end feature -->
+
+				<div class="col-sm-4 feature">
+					<div class="panel">
+						<div class="panel-heading">
+							<h3 class="panel-title"><strong>Best places to shop</strong></h3>
+						</div><!-- end panel-heading-->
+						<img src="images/Image_shop1.jpg" alt="Shopping"  style="width:200px;height=80px;">
+						<p>List of shopping places where you can buy your favorite things from around the world. </p>
+
+						<a href="http://edition.cnn.com/2013/11/18/travel/worlds-best-shopping-cities/" target="_blank" class="btn btn-danger btn-block">Click Here to Know more</a>
+					</div><!-- end panel -->
+				</div><!-- end feature -->
+
+				<div class="col-sm-4 feature">
+					<div class="panel">
+						<div class="panel-heading">
+							<h3 class="panel-title"><strong>Trekking and lot more</strong></h3>
+						</div><!-- end panel-heading-->
+						<img src="images/Image_trekk_01.jpg" alt="Trekking"  style="width:200px;height=80px;">
+						<p>For people who love adventures and like to explore new things,trekking,diving,surfing..<sub>(more)</sub></p>
+
+						<a href="http://adventure.nationalgeographic.com/adventure/trips/" target="_blank" class="btn btn-info btn-block">Click Here to know more</a>
+					</div><!-- end panel -->
+				</div><!-- end feature -->
+
+			</div><!-- end features -->
+
+			<div class="row" id="moreInfo">
+				<div class="col-sm-6">
+					<h3 style="color:white">Contents</h3>
+					<div class="tabbable">
+						<ul class="nav nav-tabs">
+							<li class="active"><a href="#tab1" data-toggle="tab">Section 1</a></li>
+							<li><a href="#tab2" data-toggle="tab">Section 2</a></li>
+						</ul>
+						<div class="tab-content">
+							<div class="tab-pane active" id="tab1">
+								<h4 style="color:white"><span class="glyphicon glyphicon-map-marker" style="color:red"></span> Our Location<small> you can find us here</small></h4>
+
+								<iframe width="100%" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d15556.743544428797!2d77.6364187!3d12.895765749999999!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1470227051470" width="400" height="300" frameborder="0" allowfullscreen></iframe>
+
+								<p class="p1">A tourist taking photographs and video at an archaeological site Backpacking tourists in Vienna
+Tourism is travel for pleasure; also the theory and practice of touring, the business of attracting, accommodating, and entertaining tourists, and the business of operating tours.Tourism may be international, or within the traveler's country. The World Tourism Organization defines tourism more generally, in terms which go "beyond the common perception of tourism as being limited to holiday activity only ", as people "traveling to and staying in places outside their usual environment for not more than one consecutive year for leisure, business and other purposes".</p>
+<p>Tourism can be domestic or international, and international tourism has both incoming and outgoing implications on a country's balance of payments. Today, tourism is a major source of income for many countries, and affects the economy of both the source and host countries, in some cases being of vital importance.</p>
+							</div><!-- end tab-pane  -->
+							<div class="tab-pane" id="tab2">
+								<h4>Know about us</h4>
+								<img src="images/Travel_Logo_02.png" alt="About us">
+								<p class="p2">Our website has helped lot of people cherish each and every moment of their journey as we guide them through most popular destinations in the world from food to shopping,fun and lot more,let alone the scenary of nature guide them to the most amazing things on earth.</p>
+							 </div>
+
+						</div><!-- end tab-content -->
+					</div><!-- end tabbable -->
+
+				</div><!-- end col-sm-6 -->
+				<div class="col-sm-6">
+					<h3><b>How to ,make your Travel Insurance ?</b></h3>
+					<p>It is relatively quick and easy to apply for the Trip Insurance Plans.  We will primarily need information on the people traveling and the cost of the trip. Travel Medical applications are slightly more complicated and might take some additional time.  Global Medical Plans will require the most effort and often will require that you provide additional information to the underwriters prior to the policy being approved.</p>
+
+					<h4><b>Travel Tips</b></h4>
+
+					<div class="list-group">
+						<a href="#" class="list-group-item">
+							<h4 class="list-group-item-heading">Know your priorities</h4>
+							<p class="list-group-item-text">A well organised plan will always save you from the utter failure. Look for the companies which provide service according to your priorities which shall include budget to entertainment.</p>
+						</a>
+						<a href="#" class="list-group-item">
+							<h4 class="list-group-item-heading">Know your travel polices</h4>
+							<p class="list-group-item-text">know well about the travel company you choose as it is important that you can always rely on the company's assistance and support.</p>
+						</a>
+						<a href="#" class="list-group-item">
+							<h4 class="list-group-item-heading">Always ensure sefty and health</h4>
+							<p class="list-group-item-text">Make sure your company ensures safety and adheres strictly to the safety polices. know well about your company's travel insurance polices.</p>
+						</a>
+
+					<h5><b>Important things to know</b></h5>
+
+					<p>Every day, people get up and go out the door to travel the world. And they survive and thrive. In fact, the travel industry has made it very easy to make it. Just get on that plane or train or bus. Everything else will work itself out. All that worrying and fear I had was for naught – this traveling thing is a lot easier than you would believe. It’s not like you are the first person to ever do this.</p>
+					</div><!-- end list-group -->
+
+				</div><!-- end col-sm-6 -->
+
+			</div><!-- end moreInfo -->
+
+
+			<div class="row" id="moreCourses">
+
+			</div><!-- end moreCourses -->
+
+
+		</div><!-- end container -->
+
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-2">
+						<h6>Copyright &copy; 2016{reserved}</h6>
+					</div><!-- end col-sm-2-->
+
+					<div class="col-sm-4">
+						<h6>About Us</h6>
+						<p></p>
+					</div><!-- end col-sm-4-->
+					<div class="col-sm-2">
+						<h6>Navigation</h6>
+						<ul class="unstyled">
+							<li><a href="#">Home</li>
+							<li><a href="#">Services</li>
+							<li><a href="#">Links</li>
+							<li><a href="#">Contact</li>
+						</ul>
+					</div><!-- end col-sm-2-->
+					<div class="col-sm-2">
+						<h6>Follow Us On</h6>
+								<a href="https://www.facebook.com"> <i class="fa fa-facebook-official" style="font-size:24px;color:blue"></i></a>&emsp;
+								<a href="#"> <i class="fa fa-twitter" style="font-size:24px;color:white"></i></a>&emsp;
+								<a href="#"> <i class="fa fa-google-plus" style="font-size:24px;color:red"></i></a>
+
+					</div><!-- end col-sm-2-->
+				</div>
+
+			</div><!-- end container -->
+		</footer>
+
+	<!-- All Javascript at the bottom of the page for faster page loading -->
+
+	<!-- First try for the online version of jQuery-->
+	<script src="http://code.jquery.com/jquery.js"></script>
+
+	<!-- If no online access, fallback to our hardcoded version of jQuery -->
+	<script>window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')</script>
+
+	<!-- Bootstrap JS -->
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+
+	<!-- Custom JS -->
+	<script src="includes/js/script.js"></script>
+
+	</body>
+</html>
